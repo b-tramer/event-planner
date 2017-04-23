@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Damion|PT+Sans+Caption|Ubuntu|Voltaire');
+
+body {
+  background-color: #fcfcf5;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Damion', cursive;
+}
+
+.column.row.header h2 {
+  margin-top: -15px;
+}
+
+h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p {
+  font-family: Open Sans;
+}
+
+/*MAIN CONTAINER*/
+
+.main-container {
+  text-align: center;
+}
+
+.column.row.header {
+  border-bottom: 2px solid black;
+}
+
+.row.information {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+
+.row.photo {
+  border-bottom: 2px solid black;
+  padding: 20px;
+}
+
+.main-button {
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.main-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.column.row.buttons {
+  padding-top: 15px;
+}
